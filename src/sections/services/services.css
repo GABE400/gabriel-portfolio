@@ -42,3 +42,11 @@
 .card.service_card h5 {
   margin: 1rem 0;
 }
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+  .services_cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}

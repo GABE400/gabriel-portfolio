@@ -1,0 +1,87 @@
+.portfolio_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio_container p {
+  margin-top: 0.8rem;
+}
+
+.portfolio_cards {
+  margin: 3rem 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.card.portfolio_card {
+  text-align: center;
+  background: var(--color-light);
+  cursor: pointer;
+}
+
+.portfolio_card-icon {
+  font-size: 0.8rem;
+  color: var(--color-white);
+  border-radius: var(--border-radius-3);
+  width: fit-content;
+  margin-inline: auto;
+  padding: 0.6rem;
+  display: flex;
+  align-items: center;
+  transition: var(--transition);
+  background: var(--color-primary);
+}
+
+.card.portfolio_card:hover .portfolio_card-icon {
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+.card.portfolio_card h5 {
+  margin: 1rem 0;
+}
+
+.card.portfolio_card h6 {
+  margin: 0.6rem 0;
+  color: var(--color-dark);
+}
+
+.card.portfolio_card .btn_card_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+  gap: 1rem;
+}
+.card.portfolio_card .btn {
+  padding: 0 1rem;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.button-wrapper > button {
+  height: 2rem;
+  padding: 0 1rem;
+}
+
+.button-wrapper > button.active {
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+  .portfolio_cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}

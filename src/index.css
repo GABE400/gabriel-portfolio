@@ -157,6 +157,17 @@ img {
   color: white;
 }
 
+.btn.black {
+  background: var(--color-black);
+  color: white;
+}
+
+.btn.black:hover {
+  background: transparent;
+  border-color: var(--color-black);
+  color: var(--color-black);
+}
+
 .btn.primary:hover {
   background: transparent;
   border-color: var(--color-primary);
