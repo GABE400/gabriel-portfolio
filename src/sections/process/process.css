@@ -1,3 +1,7 @@
+#process {
+  padding: 10rem 0;
+  background: var(--color-light);
+}
 .process_container {
   display: flex;
   flex-direction: column;

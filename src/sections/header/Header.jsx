@@ -1,6 +1,7 @@
 import HeaderImage from '../../assets/profile/Profile.jpg';
 import data from './data';
 import './header.css';
+//import { FaArrowRight } from 'react-icons/fa';
 
 const Header = () => {
   return (
@@ -23,6 +24,9 @@ const Header = () => {
             My Work
           </a>
         </div>
+        {/*<a href='#about' className='scroll_down'>
+          <FaArrowRight /> Scroll Down
+        </a>*/}
         <div className='header_socials'>
           {data.map((item) => (
             <a

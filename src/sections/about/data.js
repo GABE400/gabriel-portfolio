@@ -1,15 +1,20 @@
 import { FaAward } from 'react-icons/fa';
-import { TbBook } from 'react-icons/tb';
-import { BiHappyHeartEyes } from 'react-icons/bi';
+import { TbSchool } from 'react-icons/tb';
+import { BiCodeAlt } from 'react-icons/bi';
 
 const data = [
-  { id: 1, icon: <FaAward />, title: 'Experience', desc: '3+ Years Working' },
-  { id: 2, icon: <TbBook />, title: 'Projects', desc: '80+ Completed' },
+  { id: 1, icon: <TbSchool />, title: 'Graduate', desc: 'BSc in computing' },
+  {
+    id: 2,
+    icon: <BiCodeAlt />,
+    title: 'Software Developer',
+    desc: 'React Developer',
+  },
   {
     id: 3,
-    icon: <BiHappyHeartEyes />,
-    title: 'Clients',
-    desc: '70+ happy clients',
+    icon: <FaAward />,
+    title: 'Experience',
+    desc: '01-year working',
   },
 ];
 
