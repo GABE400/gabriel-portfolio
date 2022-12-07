@@ -26,15 +26,16 @@ const About = () => {
             ))}
           </div>
           <p>
-            Building projects my clients love have always been my passion. Being
-            in the web development industry for years and serving more than 70
-            happy clents worldwide, I am always motivated to do more!
+            Allowing the creative process to solve problems and building
+            projects for my clients worldwide has always been my passion. I am
+            excited with a pinch of creativity, motivated and inspired to
+            deliver the best quality as possible.
           </p>
           <p>
             Hi, my name is gabriel chipaya from lusaka, zambia. I am a
-            full-stack web developer with a Bachelors of Science degree with
-            honours in computing. My top priory is to get your business online
-            the right way, giving you industry-standard design and all the
+            full-stack developer with a Bachelors of Science degree with honours
+            in computing. My top priority is to get your business online the
+            right way, giving you industry-standard design and all the
             functionally you need to operate smoothly online. Get in touch today
             with the details of your project let us get started! Check out my
             resume below!

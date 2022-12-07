@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <a href='home' className='footer_logo'>
-        Gabriel Chipaya
+        My name is Gabriel Chipaya
       </a>
 
       <ul className='permalinks'>
@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
 
       <div className='footer_copyright'>
-        <small>&copy; Gabriel Chipaya. All rights reserved. </small>
+        <small>&copy; 2022. My Portfolio </small>
       </div>
     </footer>
   );

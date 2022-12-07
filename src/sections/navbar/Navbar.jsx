@@ -7,46 +7,67 @@ import { AiTwotoneHome, AiFillProject } from 'react-icons/ai';
 import { FcServices } from 'react-icons/fc';
 import { MdContactMail } from 'react-icons/md';
 import { FaUserGraduate } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
-  const [activeNav, setActiveNav] = useState('#');
+  const [activeNav, setActiveNav] = useState('header');
   return (
     <nav>
-      <a
-        href=' # '
-        onClick={() => setActiveNav('#')}
-        className={activeNav === '#' ? 'active' : ''}
+      <Link
+        to='header'
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+        onClick={() => setActiveNav('header')}
+        className={activeNav === 'header' ? 'active' : ''}
       >
         <AiTwotoneHome />
-      </a>
-      <a
-        href='#about'
+      </Link>
+      <Link
+        to='about'
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
         onClick={() => setActiveNav('#about')}
         className={activeNav === '#about' ? 'active' : ''}
       >
         <FaUserGraduate />
-      </a>
-      <a
-        href='#services'
+      </Link>
+      <Link
+        to='services'
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
         onClick={() => setActiveNav('#services')}
         className={activeNav === '#services' ? 'active' : ''}
       >
         <FcServices />
-      </a>
-      <a
-        href='#portfolio'
+      </Link>
+      <Link
+        to='portfolio'
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
         onClick={() => setActiveNav('#portfolio')}
         className={activeNav === '#portfolio' ? 'active' : ''}
       >
         <AiFillProject />
-      </a>
-      <a
-        href='#contact'
+      </Link>
+      <Link
+        to='contact'
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
         onClick={() => setActiveNav('#contact')}
         className={activeNav === '#contact' ? 'active' : ''}
       >
         <MdContactMail />
-      </a>
+      </Link>
     </nav>
   );
 };

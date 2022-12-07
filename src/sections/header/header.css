@@ -1,12 +1,12 @@
 header {
   padding-top: 7rem;
-  height: calc(100vh - 3rem);
+  height: calc(100vh - 1rem);
   display: grid;
   place-items: center;
   background: var(--color-white);
   transition: var(--transition);
   background-image: linear-gradient(rgba(244, 242, 243, 0.8), #dbdbdb),
-    url('../../assets/background/codebg.jpg');
+    url('../../assets/background/bgline.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -84,8 +84,15 @@ header::before {
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
   header {
-    margin-top: 2rem;
     height: 100vh;
+  }
+
+  .header_cta {
+    margin-bottom: 4rem;
+  }
+
+  .header_socials {
+    margin-bottom: 5rem;
   }
 }
 

@@ -10,15 +10,15 @@ const Header = () => {
         <div className='header_profile'>
           <img src={HeaderImage} alt='profile' />
         </div>
-        <h3>Gabriel Chipaya</h3>
+        <h3>Hi, I am Gabriel Chipaya</h3>
         <p>
-          You are a click away from building your dream website or web app. Send
-          me the details of your project for a modern, mobile responsive, highly
-          performant website today!
+          My occupation is building your dream website, mobile or web app. Get
+          in touch, let's talk about your project for a modern, mobile
+          responsive, highly performant designs today!
         </p>
         <div className='header_cta'>
           <a href='#contact' className='btn primary'>
-            Let Us Talk
+            Let's Talk
           </a>
           <a href='#portfolio' className='btn light'>
             My Work

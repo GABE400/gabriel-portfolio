@@ -1,30 +1,37 @@
+import React, { Suspense, lazy } from 'react';
+import { ErrorBoundary } from 'react-error-boundary';
+import ErrorFallback from './components/ErrorBoundary';
 import Navbar from './sections/navbar/Navbar';
-import Header from './sections/header/Header';
-import About from './sections/about/About';
-import Services from './sections/services/Services';
-import Portfolio from './sections/portfolio/Portfolio';
 //import Testimonials from './sections/testimonials/Testimonials';
 //import FAQs from './sections/faqs/FAQs';
-import Contact from './sections/contact/Contact';
-import Footer from './sections/footer/Footer';
 //import FloatingNav from './sections/floating-nav/FloatingNav';
-import Process from './sections/process/Process';
+const Header = lazy(() => import('./sections/header/Header'));
+const About = lazy(() => import('./sections/about/About'));
+const Services = lazy(() => import('./sections/services/Services'));
+const Portfolio = lazy(() => import('./sections/portfolio/Portfolio'));
+const Contact = lazy(() => import('./sections/contact/Contact'));
+const Footer = lazy(() => import('./sections/footer/Footer'));
+const Process = lazy(() => import('./sections/process/Process'));
 
 const App = () => {
   return (
     <main>
-      <Navbar />
-      <Header />
-      <About />
-      <Services />
-      <Process />
-      <Portfolio />
-      {/*
+      <ErrorBoundary FallbackComponent={ErrorFallback} onReset={() => {}}>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Navbar />
+          <Header />
+          <About />
+          <Services />
+          <Process />
+          <Portfolio />
+          {/*
       <Testimonials />
       <FAQs />*/}
-      <Contact />
-      <Footer />
-      {/*<FloatingNav />*/}
+          <Contact />
+          <Footer />
+          {/*<FloatingNav />*/}
+        </Suspense>
+      </ErrorBoundary>
     </main>
   );
 };
