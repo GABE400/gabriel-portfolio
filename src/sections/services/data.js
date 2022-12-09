@@ -1,5 +1,6 @@
 import { FaServer, FaReact, FaFigma } from 'react-icons/fa';
-import { TbBrandReactNative } from 'react-icons/tb';
+//import { TbBrandReactNative } from 'react-icons/tb';
+import { IoMdApps } from 'react-icons/io';
 
 const data = [
   {
@@ -16,7 +17,7 @@ const data = [
   },
   {
     id: 3,
-    icon: <TbBrandReactNative />,
+    icon: <IoMdApps />,
     title: 'App Development',
     desc: 'Unlike other developers in the market. I will be building an app that runs on both IOS and Android devices without any extra cost to you',
   },

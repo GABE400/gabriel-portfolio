@@ -1,4 +1,5 @@
 import { FaFigma, FaReact, FaNodeJs, FaJava } from 'react-icons/fa';
+
 const data = [
   {
     id: 1,

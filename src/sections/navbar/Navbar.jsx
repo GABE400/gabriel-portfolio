@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 //import data from './data';
 //import { IoIosColorPalette } from 'react-icons/io';
 import './navbar.css';
-import { AiTwotoneHome, AiFillProject } from 'react-icons/ai';
-import { FcServices } from 'react-icons/fc';
+import { AiTwotoneHome } from 'react-icons/ai';
+import { RiServiceLine } from 'react-icons/ri';
 import { MdContactMail } from 'react-icons/md';
-import { FaUserGraduate } from 'react-icons/fa';
+import { FaUserGraduate, FaLaptopCode } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -44,7 +44,7 @@ const Navbar = () => {
         onClick={() => setActiveNav('#services')}
         className={activeNav === '#services' ? 'active' : ''}
       >
-        <FcServices />
+        <RiServiceLine />
       </Link>
       <Link
         to='portfolio'
@@ -55,7 +55,7 @@ const Navbar = () => {
         onClick={() => setActiveNav('#portfolio')}
         className={activeNav === '#portfolio' ? 'active' : ''}
       >
-        <AiFillProject />
+        <FaLaptopCode />
       </Link>
       <Link
         to='contact'
