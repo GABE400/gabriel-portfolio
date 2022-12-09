@@ -7,7 +7,7 @@ const Process = () => {
     <section id='process'>
       <div className='container process_container'>
         <h2>Work Process</h2>
-        <p>I offer the right solution for your digital business</p>
+        <p>I offer the right solution for your web or mobile project</p>
         <div className='process_cards'>
           {data.map((item) => (
             <Card key={item.id} className='process_card'>

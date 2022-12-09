@@ -16,8 +16,8 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <div className='container portfolio_container'>
-        <h2>Portfolio</h2>
-        <p>I give you the best in all the services below</p>
+        <h2>Projects</h2>
+        <p>Check out the projects I worked on with different categories</p>
         <div className='button-wrapper' handleSetTag={setCategory}>
           <ButtonCat
             name='All'

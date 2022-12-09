@@ -7,7 +7,7 @@ const data = [
   {
     id: 2,
     icon: <BiCodeAlt />,
-    title: 'Software Developer',
+    title: 'Full Stack Developer',
     desc: 'React Developer',
   },
   {

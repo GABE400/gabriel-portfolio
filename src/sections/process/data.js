@@ -11,7 +11,7 @@ const data = [
     id: 2,
     icon: <TbNumber2 />,
     title: 'Design',
-    desc: 'This is the second process were i design the prototype',
+    desc: 'This is the second process were the prototype is designed',
   },
   {
     id: 3,

@@ -33,12 +33,12 @@ const About = () => {
           </p>
           <p>
             Hi, my name is gabriel chipaya from lusaka, zambia. I am a
-            full-stack developer with a Bachelors of Science degree with honours
-            in computing. My top priority is to get your business online the
-            right way, giving you industry-standard design and all the
-            functionally you need to operate smoothly online. Get in touch today
-            with the details of your project let us get started! Check out my
-            resume below!
+            full-stack developer and a graduate, I have a Bachelor of Science
+            degree with honours in computing. My top priority is getting your
+            business online the right way, giving you industry-standard design
+            and all the functionality you need to operate smoothly online. Get
+            in touch with me today with the details of your project let's get
+            started! check out my resume below!
           </p>
           <a href={CV} download className='btn primary'>
             Download CV <HiDocumentDownload />
