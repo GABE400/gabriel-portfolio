@@ -18,7 +18,7 @@ const data = [
     icon: <FaReact />,
     title: 'React',
     category: 'Frontend',
-    tags: ['React', ' HTML', ' CSS'],
+    tags: ['React', ' ,HTML', ' ,CSS'],
     desc: 'This project is a media company website app. It was built with React, HTML and CSS ',
     source: 'https://github.com/GABE400/gravity-media',
     visit: 'https://gravity-media.netlify.app/',
@@ -44,6 +44,17 @@ const data = [
     desc: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ',
     source: '#',
     visit: '#',
+  },
+  {
+    id: 5,
+    image: 'img/2.png',
+    icon: <FaReact />,
+    title: 'React',
+    category: 'Frontend',
+    tags: ['React', ' ,HTML', ' ,React Styled Components'],
+    desc: 'This project is a tech company website app. It was built with React, HTML and React-styled Components ',
+    source: 'https://github.com/GABE400/tech-company.git',
+    visit: 'https://neld-tech.netlify.app/',
   },
 ];
 
