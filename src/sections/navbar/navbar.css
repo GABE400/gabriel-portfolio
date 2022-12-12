@@ -1,24 +1,4 @@
 nav {
-  width: 100vw;
-  height: 5rem;
-  display: grid;
-  place-items: center;
-  background: var(--color-primary);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9;
-  box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
-  transition: var(--transition);
-}
-
-.nav_container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav {
   background: rgba(21, 47, 98, 0.3);
   width: max-content;
   display: block;
@@ -32,7 +12,6 @@ nav {
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
-  margin-top: 1.5rem;
 }
 
 nav a {

@@ -59,10 +59,20 @@ const Portfolio = () => {
               <h6>{item.tags}</h6>
               <small>{item.desc}</small>
               <div className='btn_card_container'>
-                <a className='btn black' href={item.source}>
+                <a
+                  className='btn black'
+                  href={item.source}
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   Github
                 </a>
-                <a className='btn primary' href={item.visit}>
+                <a
+                  className='btn primary'
+                  href={item.visit}
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   Live
                 </a>
               </div>
