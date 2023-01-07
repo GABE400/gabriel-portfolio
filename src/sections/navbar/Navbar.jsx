@@ -6,7 +6,7 @@ import './navbar.css';
 import { AiTwotoneHome } from 'react-icons/ai';
 import { RiServiceLine } from 'react-icons/ri';
 import { MdContactMail } from 'react-icons/md';
-import { FaUserGraduate, FaLaptopCode } from 'react-icons/fa';
+import { FaUserGraduate, FaLaptopCode, FaProjectDiagram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -47,6 +47,17 @@ const Navbar = () => {
         <RiServiceLine />
       </Link>
       <Link
+        to='tech'
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+        onClick={() => setActiveNav('#tech')}
+        className={activeNav === '#tech' ? 'active' : ''}
+      >
+        <FaLaptopCode />
+      </Link>
+      <Link
         to='portfolio'
         spy={true}
         smooth={true}
@@ -55,7 +66,7 @@ const Navbar = () => {
         onClick={() => setActiveNav('#portfolio')}
         className={activeNav === '#portfolio' ? 'active' : ''}
       >
-        <FaLaptopCode />
+        <FaProjectDiagram />
       </Link>
       <Link
         to='contact'

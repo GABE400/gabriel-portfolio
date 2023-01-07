@@ -38,14 +38,14 @@ const Portfolio = () => {
           />
 
           <ButtonCat
-            name='Backend'
-            tagActive={category === 'Backend' ? true : false}
+            name='Fullstack'
+            tagActive={category === 'Fullstack' ? true : false}
             handleSetTag={setCategory}
           />
 
           <ButtonCat
-            name='Fullstack'
-            tagActive={category === 'Fullstack' ? true : false}
+            name='Decentralized'
+            tagActive={category === 'Decentralized' ? true : false}
             handleSetTag={setCategory}
           />
         </div>

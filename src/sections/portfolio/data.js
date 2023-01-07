@@ -1,4 +1,5 @@
-import { FaFigma, FaReact, FaNodeJs, FaJava } from 'react-icons/fa';
+import { FaFigma, FaReact, FaJava } from 'react-icons/fa';
+import { SiWeb3Dotjs } from 'react-icons/si';
 
 const data = [
   {
@@ -21,14 +22,14 @@ const data = [
     tags: ['React', ' ,HTML', ' ,CSS'],
     desc: 'This project is a media company website app. It was built with React, HTML and CSS ',
     source: 'https://github.com/GABE400/gravity-media',
-    visit: 'https://gravity-media.netlify.app/',
+    visit: 'https://media-company.netlify.app/',
   },
   {
     id: 3,
-    image: 'img/3.jpg',
-    icon: <FaNodeJs />,
-    title: 'Node Js',
-    category: 'Backend',
+    image: 'img/4.jpg',
+    icon: <FaJava />,
+    title: 'Java',
+    category: 'Fullstack',
     tags: ['Mongo', ' Express', ' Node', ' React'],
     desc: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ',
     source: '#',
@@ -37,9 +38,9 @@ const data = [
   {
     id: 4,
     image: 'img/4.jpg',
-    icon: <FaJava />,
-    title: 'Java',
-    category: 'Fullstack',
+    icon: <SiWeb3Dotjs />,
+    title: 'Web 3.0',
+    category: 'Decentralized',
     tags: ['Mongo', ' Express', ' Node', ' React'],
     desc: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ',
     source: '#',
@@ -54,7 +55,18 @@ const data = [
     tags: ['React', ' ,HTML', ' ,React Styled Components'],
     desc: 'This project is a tech company website app. It was built with React, HTML and React-styled Components ',
     source: 'https://github.com/GABE400/tech-company.git',
-    visit: 'https://neld-tech.netlify.app/',
+    visit: 'https://itcompanytech.netlify.app/',
+  },
+  {
+    id: 6,
+    image: 'img/6.png',
+    icon: <FaReact />,
+    title: 'React',
+    category: 'Frontend',
+    tags: ['React', ' ,HTML', ' ,Tailwind CSS'],
+    desc: 'This project is a tech company website. The frontend was built using tailwind CSS and html.',
+    source: 'https://github.com/GABE400/neld-tech',
+    visit: 'https://neldtechnology.netlify.app/',
   },
 ];
 

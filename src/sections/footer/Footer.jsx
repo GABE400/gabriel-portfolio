@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <a href='home' className='footer_logo'>
-        My name is Gabriel Chipaya
+        Gabriel Chipaya
       </a>
 
       <ul className='permalinks'>

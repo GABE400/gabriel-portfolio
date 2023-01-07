@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { ErrorBoundary } from 'react-error-boundary';
 import ErrorFallback from './components/ErrorBoundary';
 import Navbar from './sections/navbar/Navbar';
+import Technology from './sections/techologies/Technology';
 //import Testimonials from './sections/testimonials/Testimonials';
 //import FAQs from './sections/faqs/FAQs';
 //import FloatingNav from './sections/floating-nav/FloatingNav';
@@ -22,6 +23,7 @@ const App = () => {
           <Header />
           <About />
           <Services />
+          <Technology />
           <Process />
           <Portfolio />
           {/*
