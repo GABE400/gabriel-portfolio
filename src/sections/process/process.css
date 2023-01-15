@@ -12,6 +12,12 @@
     #e0eafc
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.processImagesH {
+  margin-top: 0.8rem;
+  height: 220px;
+}
+
 .process_container {
   display: flex;
   flex-direction: column;

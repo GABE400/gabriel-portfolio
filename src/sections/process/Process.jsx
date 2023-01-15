@@ -1,3 +1,5 @@
+import Plan from '../../assets/lottie/131697-development-process.json';
+import Lottie from 'lottie-react';
 import Card from '../../components/Card';
 import data from './data';
 import './process.css';
@@ -7,7 +9,8 @@ const Process = () => {
     <section id='process'>
       <div className='container process_container'>
         <h2>Work Process</h2>
-        <p>I offer the right solution for your web or mobile project</p>
+        <p>I offer the right solution for your project</p>
+        <Lottie animationData={Plan} loop={true} className='processImagesH' />
         <div className='process_cards'>
           {data.map((item) => (
             <Card key={item.id} className='process_card'>
