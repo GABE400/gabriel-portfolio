@@ -26,14 +26,14 @@ const Portfolio = () => {
           />
 
           <ButtonCat
-            name='UI/UX'
-            tagActive={category === 'UI/UX' ? true : false}
+            name='Frontend'
+            tagActive={category === 'Frontend' ? true : false}
             handleSetTag={setCategory}
           />
 
           <ButtonCat
-            name='Frontend'
-            tagActive={category === 'Frontend' ? true : false}
+            name='Backend'
+            tagActive={category === 'Backend' ? true : false}
             handleSetTag={setCategory}
           />
 
