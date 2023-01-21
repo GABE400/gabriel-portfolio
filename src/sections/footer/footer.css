@@ -1,5 +1,5 @@
 footer {
-  background: var(--color-primary);
+  background: var(--color-primary-variant);
   padding: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
@@ -14,6 +14,7 @@ footer a {
   font-weight: 500;
   margin-bottom: 2rem;
   display: inline-block;
+  color: var(--color-text-);
 }
 
 .permalinks {

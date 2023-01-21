@@ -1,56 +1,82 @@
 #tech {
-  padding: 10rem 0;
-  background: var(--color-light);
+  padding: 3rem 0;
+  background: var(--color-bg);
 }
 .tech_container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.tech_container p {
-  margin-top: 0.8rem;
-}
-
-.tech_cards {
-  margin: 3rem 0 1.5rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
-.card.tech_card {
+.tech_container > div {
+  background: var(--color-primary-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
+
+.tech_container > div:hover {
+  background: transparent;
+  border-color: var(--color-bg-variant);
+  cursor: default;
+}
+
+.tech_container > div h3 {
   text-align: center;
-  background: var(--color-white);
-  cursor: pointer;
+  margin-bottom: 2rem;
+  color: var(--color-text-);
 }
 
-.tech_card-icon {
-  font-size: 2rem;
-  color: var(--color-white);
-  border-radius: var(--border-radius-3);
-  width: fit-content;
-  margin-inline: auto;
-  padding: 0.6rem;
+.experience_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.experience_details {
   display: flex;
-  align-items: center;
-  transition: var(--transition);
-  background: var(--color-black);
+  gap: 1rem;
 }
 
-.card.tech_card:hover .tech_card-icon {
-  background: var(--color-dark);
-  color: var(--color-white);
+h5 {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.card.tech_card h5 {
-  margin: 1rem 0;
+#tech h2 {
+  margin-bottom: 3rem;
+  color: var(--color-text-);
+}
+
+.icon {
+  margin-top: 6px;
+  color: var(--color-text-);
 }
 
 /* MEDIA QUERIES (phones) */
+@media screen and (max-width: 1024px) {
+  .tech_container {
+    grid-template-columns: 1fr;
+  }
+
+  .tech_container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .experience_content {
+    padding: 1rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
-  .tech_cards {
-    grid-template-columns: 1fr 1fr;
+  .tech_container {
     gap: 1rem;
+  }
+
+  .tech_container > div {
+    width: 100%;
+    padding: 2rem 1rem;
   }
 }

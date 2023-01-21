@@ -68,7 +68,7 @@ const Portfolio = () => {
                   Github
                 </a>
                 <a
-                  className='btn primary'
+                  className='btn secondary'
                   href={item.visit}
                   target='_blank'
                   rel='noreferrer'

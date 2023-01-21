@@ -1,6 +1,6 @@
-import AboutImage from '../../assets/profile/TechDesign.png';
-import CV from '../../assets/CV/resume.pdf';
-import { HiDocumentDownload } from 'react-icons/hi';
+import AboutImage from '../../assets/profile/about-me.png';
+//import CV from '../../assets/CV/resume.pdf';
+import { BsArrowDownSquare } from 'react-icons/bs';
 import data from './data';
 import Card from '../../components/Card';
 import './about.css';
@@ -39,11 +39,13 @@ const About = () => {
             proprietorship or corporate business online with a suitable
             approach, building your project, and giving it a professional design
             and functionality that will work efficiently for your business
-            online. Get in touch with me today with the details of your project
-            let's get started! check out my resume below!
+            online. My occupation is building your dream website, mobile or web
+            app. Get in touch, let's talk about your project for a modern,
+            mobile responsive, highly performant designs today! Let's get
+            started!
           </p>
-          <a href={CV} download className='btn primary'>
-            Download CV <HiDocumentDownload />
+          <a href='#contact' className='btn primary'>
+            Reach Me <BsArrowDownSquare />
           </a>
         </div>
       </div>

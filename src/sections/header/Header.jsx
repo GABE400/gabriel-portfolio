@@ -1,44 +1,27 @@
-import HeaderImage from '../../assets/profile/Profile.jpg';
-import data from './data';
+import HeaderImage from '../../assets/profile/profile.png';
+//import data from './data';
 import './header.css';
+import CTA from './CTA';
+import HeaderSocialMedia from './HeaderSocialMedia';
 //import { FaArrowRight } from 'react-icons/fa';
 
 const Header = () => {
   return (
     <header id='header'>
       <div className='container header_container'>
-        <div className='header_profile'>
-          <img src={HeaderImage} alt='profile' />
+        <h5>Hello, I'm</h5>
+        <h1>Gabriel</h1>
+        <h5 className='text-light'>I'm a Fullstack Developer</h5>
+        <CTA></CTA>
+        <HeaderSocialMedia />
+
+        <div className='me'>
+          <img src={HeaderImage} alt='profile'></img>
         </div>
-        <h3>Hi, I am Gabriel Chipaya</h3>
-        <p>
-          My occupation is building your dream website, mobile or web app. Get
-          in touch, let's talk about your project for a modern, mobile
-          responsive, highly performant designs today!
-        </p>
-        <div className='header_cta'>
-          <a href='#contact' className='btn primary'>
-            Let's Talk
-          </a>
-          <a href='#portfolio' className='btn light'>
-            My Work
-          </a>
-        </div>
-        {/*<a href='#about' className='scroll_down'>
-          <FaArrowRight /> Scroll Down
-        </a>*/}
-        <div className='header_socials'>
-          {data.map((item) => (
-            <a
-              key={item.id}
-              href={item.link}
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              {item.icon}
-            </a>
-          ))}
-        </div>
+
+        <a href='#contact' className='scroll_down'>
+          Scroll Down
+        </a>
       </div>
     </header>
   );
