@@ -17,23 +17,27 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>User Centered Design</p>
             </li>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>The Five Elements of UX Design</p>
             </li>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>Design Thinking</p>
             </li>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>Lean UX</p>
             </li>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>Double Diamond</p>
+            </li>
+            <li>
+              <FiCheckCircle className='service_list-icon' />
+              <p>My designs are modern</p>
             </li>
           </ul>
         </article>
@@ -45,23 +49,27 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>Responsive Web Design</p>
             </li>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>Frontend Web Development</p>
             </li>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>Backend Web Development</p>
             </li>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>Full Stack Web Development</p>
             </li>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>(Web 3) Decentralized Application</p>
+            </li>
+            <li>
+              <FiCheckCircle className='service_list-icon' />
+              <p>SEO (Search Engine Optimization)</p>
             </li>
           </ul>
         </article>
@@ -73,23 +81,15 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>PWA (Progressive Web Apps)</p>
             </li>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>Hybrid Mobile Apps</p>
             </li>
             <li>
               <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <FiCheckCircle className='service_list-icon' />
-              <p>Lorem ipum dolor sit amet consectetur.</p>
+              <p>Native Mobile Apps</p>
             </li>
           </ul>
         </article>

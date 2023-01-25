@@ -67,7 +67,7 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
-  color: var(--color-primary);
+  color: var(--color-text-);
 }
 
 .btn-button {
