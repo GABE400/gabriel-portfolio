@@ -1,5 +1,5 @@
-import { FaFigma, FaReact, FaJava } from 'react-icons/fa';
-import { SiWeb3Dotjs } from 'react-icons/si';
+import { FaFigma, FaReact } from 'react-icons/fa';
+import { SiWeb3Dotjs, SiNextdotjs } from 'react-icons/si';
 
 const data = [
   {
@@ -26,14 +26,14 @@ const data = [
   },
   {
     id: 3,
-    image: 'img/4.jpg',
-    icon: <FaJava />,
-    title: 'Java',
+    image: 'img/14.png',
+    icon: <SiNextdotjs />,
+    title: 'Next.js 13',
     category: 'Fullstack',
-    tags: ['Mongo', ' Express', ' Node', ' React'],
-    desc: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ',
-    source: '#',
-    visit: '#',
+    tags: ['Next.js 13', ' Tailwind CSS'],
+    desc: 'Movie Api App',
+    source: 'https://github.com/GABE400/movie-fetch',
+    visit: 'https://movie-fetch-beta.vercel.app/',
   },
   {
     id: 4,
@@ -71,7 +71,7 @@ const data = [
   {
     id: 7,
     image: 'img/13.png',
-    icon: <FaReact />,
+    icon: <SiNextdotjs />,
     title: 'Next.js 13',
     category: 'Frontend',
     tags: ['Next.js 13', ' ,Framer Motion', ' ,HTML', ' ,Tailwind CSS'],
