@@ -1,7 +1,7 @@
 //import data from './data';
 //import Card from '../../components/Card';
-import { FiCheckCircle } from 'react-icons/fi';
-import './services.css';
+import { FiCheckCircle } from "react-icons/fi";
+import "./services.css";
 
 const Services = () => {
   return (
@@ -49,27 +49,21 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <FiCheckCircle className='service_list-icon' />
+              <p>Web Design (UX/UI)</p>
+            </li>
+
+            <li>
+              <FiCheckCircle className='service_list-icon' />
               <p>Responsive Web Design</p>
             </li>
             <li>
               <FiCheckCircle className='service_list-icon' />
               <p>Frontend Web Development</p>
             </li>
-            <li>
-              <FiCheckCircle className='service_list-icon' />
-              <p>Backend Web Development</p>
-            </li>
+
             <li>
               <FiCheckCircle className='service_list-icon' />
               <p>Full Stack Web Development</p>
-            </li>
-            <li>
-              <FiCheckCircle className='service_list-icon' />
-              <p>(Web 3) Decentralized Application</p>
-            </li>
-            <li>
-              <FiCheckCircle className='service_list-icon' />
-              <p>SEO (Search Engine Optimization)</p>
             </li>
           </ul>
         </article>
@@ -79,6 +73,10 @@ const Services = () => {
           </div>
 
           <ul className='service_list'>
+            <li>
+              <FiCheckCircle className='service_list-icon' />
+              <p>Mobile App Design (UX/UI)</p>
+            </li>
             <li>
               <FiCheckCircle className='service_list-icon' />
               <p>PWA (Progressive Web Apps)</p>

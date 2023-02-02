@@ -14,12 +14,11 @@ import {
   SiAdobeillustrator,
   SiAdobexd,
   SiSolidity,
-  SiSvelte,
-} from 'react-icons/si';
-import { TbBrandNextjs } from 'react-icons/tb';
-import { FaNodeJs, FaJava, FaBootstrap } from 'react-icons/fa';
-import { FiFigma } from 'react-icons/fi';
-import './technology.css';
+} from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { FaNodeJs, FaJava, FaBootstrap } from "react-icons/fa";
+import { FiFigma } from "react-icons/fi";
+import "./technology.css";
 
 const Technology = () => {
   return (
@@ -97,13 +96,6 @@ const Technology = () => {
               <FaBootstrap className='icon' />
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'></small>
-              </div>
-            </article>
-            <article className='experience_details'>
-              <SiSvelte className='icon' />
-              <div>
-                <h4>Svelte</h4>
                 <small className='text-light'></small>
               </div>
             </article>

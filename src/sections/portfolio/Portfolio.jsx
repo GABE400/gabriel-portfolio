@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import data from './data';
-import Card from '../../components/Card';
-import './portfolio.css';
+import React, { useState, useEffect } from "react";
+import data from "./data";
+import Card from "../../components/Card";
+import "./portfolio.css";
 
 const Portfolio = () => {
-  const [category, setCategory] = useState('All');
+  const [category, setCategory] = useState("All");
   const [filteredData, setFilteredData] = useState([]);
 
   useEffect(() => {
-    category === 'All'
+    category === "All"
       ? setFilteredData(data)
       : setFilteredData(data.filter((item) => item.category === category));
   }, [category]);
@@ -21,31 +21,19 @@ const Portfolio = () => {
         <div className='button-wrapper' handleSetTag={setCategory}>
           <ButtonCat
             name='All'
-            tagActive={category === 'All' ? true : false}
+            tagActive={category === "All" ? true : false}
             handleSetTag={setCategory}
           />
 
           <ButtonCat
             name='Frontend'
-            tagActive={category === 'Frontend' ? true : false}
-            handleSetTag={setCategory}
-          />
-
-          <ButtonCat
-            name='Backend'
-            tagActive={category === 'Backend' ? true : false}
+            tagActive={category === "Frontend" ? true : false}
             handleSetTag={setCategory}
           />
 
           <ButtonCat
             name='Fullstack'
-            tagActive={category === 'Fullstack' ? true : false}
-            handleSetTag={setCategory}
-          />
-
-          <ButtonCat
-            name='Decentralized'
-            tagActive={category === 'Decentralized' ? true : false}
+            tagActive={category === "Fullstack" ? true : false}
             handleSetTag={setCategory}
           />
         </div>
@@ -73,7 +61,7 @@ const Portfolio = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  Live
+                  View
                 </a>
               </div>
             </Card>
@@ -87,7 +75,7 @@ const Portfolio = () => {
 const ButtonCat = ({ name, handleSetTag, tagActive }) => {
   return (
     <button
-      className={`tag ${tagActive ? 'active' : null}`}
+      className={`tag ${tagActive ? "active" : null}`}
       onClick={() => handleSetTag(name)}
     >
       {name.toUpperCase()}
