@@ -26,26 +26,45 @@ const About = () => {
             ))}
           </div>
           <p>
-            Allowing the creative process to solve problems and building
-            projects for my clients worldwide has always been my passion. I am
-            excited with a pinch of creativity, motivated and inspired to
-            deliver the best quality as possible.
+            Gabriel Chipaya is a talented full stack developer with experience
+            in building robust and scalable web applications. With a strong
+            background in both front-end and back-end development, gabriel has a
+            proven track record of delivering high-quality projects that meet or
+            exceed client expectations.
           </p>
           <p>
-            Hi, my name is gabriel chipaya from Lusaka, Zambia. I am a full
-            stack developer with a Bachelor of Science (Hons) degree in
-            computing. Therefore, this is a great opportunity for me to work as
-            a full-stack developer and my top precedence is getting your sole
-            proprietorship or corporate business online with a suitable
-            approach, building your project, and giving it a professional design
-            and functionality that will work efficiently for your business
-            online. My occupation is building your dream website, mobile or web
-            app. Get in touch, let's talk about your project for a modern,
-            mobile responsive, highly performant designs today! Let's get
-            started!
+            As a full stack developer, gabriel is proficient in working with
+            various technologies, including JavaScript, HTML, CSS, Node.js,
+            React, Next.js, Express.js, Java, and databases such as MySQL, SQL,
+            and MongoDB. This has allowed them to create dynamic and responsive
+            applications that are optimized for performance and usability.
+          </p>
+          <p>
+            Gabriel is an avid learner who stays up-to-date with the latest
+            trends and technologies in the industry. They are committed to
+            writing clean and maintainable code, using best practices and design
+            patterns to ensure code quality and efficiency.
+          </p>
+          <p>
+            Gabriel is a team player who enjoys collaborating with designers,
+            developers, and stakeholders to create innovative solutions that
+            meet business goals. They possess excellent communication skills,
+            which enable them to explain technical concepts to non-technical
+            stakeholders.
+          </p>
+          <p>
+            In their free time, gabriel enjoys attending tech conferences and
+            meetups to network and learn from other professionals in the field.
+            They are also passionate about contributing to open-source projects
+            and sharing their knowledge with the wider community.
+          </p>
+          <p>
+            Overall, gabriel is a skilled and dedicated full stack developer who
+            brings creativity, expertise, and a passion for excellence to every
+            project they work on.
           </p>
           <a href='#contact' className='btn primary'>
-            Reach Me <BsArrowDownSquare />
+            Reach Gabriel <BsArrowDownSquare />
           </a>
         </div>
       </div>
