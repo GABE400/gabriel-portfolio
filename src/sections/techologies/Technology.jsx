@@ -7,16 +7,13 @@ import {
   SiTailwindcss,
   SiReact,
   SiJavascript,
-  SiSpring,
   SiMysql,
   SiMongodb,
   SiAdobephotoshop,
   SiAdobeillustrator,
-  SiAdobexd,
-  SiSolidity,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
-import { FaNodeJs, FaJava, FaBootstrap } from "react-icons/fa";
+import { FaNodeJs, FaBootstrap } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
 import "./technology.css";
 
@@ -44,9 +41,9 @@ const Technology = () => {
               </div>
             </article>
             <article className='experience_details'>
-              <SiAdobexd className='icon' />
+              <TbBrandNextjs className='icon' />
               <div>
-                <h4>Adobe Xd</h4>
+                <h4>Next.js 13</h4>
                 <small className='text-light'></small>
               </div>
             </article>
@@ -111,20 +108,7 @@ const Technology = () => {
                 <small className='text-light'></small>
               </div>
             </article>
-            <article className='experience_details'>
-              <FaJava className='icon' />
-              <div>
-                <h4>Java</h4>
-                <small className='text-light'></small>
-              </div>
-            </article>
-            <article className='experience_details'>
-              <SiSpring className='icon' />
-              <div>
-                <h4>Spring</h4>
-                <small className='text-light'></small>
-              </div>
-            </article>
+
             <article className='experience_details'>
               <SiMysql className='icon' />
               <div>
@@ -142,14 +126,7 @@ const Technology = () => {
             <article className='experience_details'>
               <TbBrandNextjs className='icon' />
               <div>
-                <h4>Next.js</h4>
-                <small className='text-light'></small>
-              </div>
-            </article>
-            <article className='experience_details'>
-              <SiSolidity className='icon' />
-              <div>
-                <h4>Solidity</h4>
+                <h4>Next.js 13</h4>
                 <small className='text-light'></small>
               </div>
             </article>
