@@ -7,13 +7,18 @@ import {
   SiTailwindcss,
   SiReact,
   SiJavascript,
-  SiMysql,
   SiMongodb,
   SiAdobephotoshop,
   SiAdobeillustrator,
+  SiTypescript,
+  SiPrisma,
+  SiTrpc,
+  SiExpress,
+  SiMysql,
+  SiSqlite,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
-import { FaNodeJs, FaBootstrap } from "react-icons/fa";
+import { FaNodeJs, FaBootstrap, FaJava, FaDatabase } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
 import "./technology.css";
 
@@ -21,7 +26,7 @@ const Technology = () => {
   return (
     <section id='tech'>
       <h5>What Skills I have</h5>
-      <h2>My Experience</h2>
+      <h2>Tech Stack</h2>
       <div className='container tech_container'>
         <div className='experience_frontend'>
           <h3>Frontend Development</h3>
@@ -43,7 +48,7 @@ const Technology = () => {
             <article className='experience_details'>
               <TbBrandNextjs className='icon' />
               <div>
-                <h4>Next.js 13</h4>
+                <h4>Next.js</h4>
                 <small className='text-light'></small>
               </div>
             </article>
@@ -98,24 +103,49 @@ const Technology = () => {
             </article>
           </div>
         </div>
-        <div className='experience_backend'>
-          <h3>Backend Development</h3>
+        <div className='experience_frontend'>
+          <h3>T3 Stack</h3>
           <div className='experience_content'>
             <article className='experience_details'>
-              <FaNodeJs className='icon' />
+              <TbBrandNextjs className='icon' />
               <div>
-                <h4>Node.js</h4>
+                <h4>Next.js</h4>
                 <small className='text-light'></small>
               </div>
             </article>
-
             <article className='experience_details'>
-              <SiMysql className='icon' />
+              <SiTypescript className='icon' />
               <div>
-                <h4>MySql</h4>
+                <h4>Typescript</h4>
                 <small className='text-light'></small>
               </div>
             </article>
+            <article className='experience_details'>
+              <SiTailwindcss className='icon' />
+              <div>
+                <h4>Tailwind CSS</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <SiTrpc className='icon' />
+              <div>
+                <h4>tRPC</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <SiPrisma className='icon' />
+              <div>
+                <h4>Prisma</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className='experience_backend'>
+          <h3>MERN Stack</h3>
+          <div className='experience_content'>
             <article className='experience_details'>
               <SiMongodb className='icon' />
               <div>
@@ -123,10 +153,63 @@ const Technology = () => {
                 <small className='text-light'></small>
               </div>
             </article>
+
             <article className='experience_details'>
-              <TbBrandNextjs className='icon' />
+              <SiExpress className='icon' />
               <div>
-                <h4>Next.js 13</h4>
+                <h4>Express.js</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <SiReact className='icon' />
+              <div>
+                <h4>React.js</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <FaNodeJs className='icon' />
+              <div>
+                <h4>Node.js</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className='experience_backend'>
+          <h3>Other Programming Language & Databases</h3>
+          <div className='experience_content'>
+            <article className='experience_details'>
+              <FaJava className='icon' />
+              <div>
+                <h4>Java</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <SiSqlite className='icon' />
+              <div>
+                <h4>SQLite</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <SiMysql className='icon' />
+              <div>
+                <h4>MySQL</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <FaDatabase className='icon' />
+              <div>
+                <h4>PostreSQL</h4>
                 <small className='text-light'></small>
               </div>
             </article>
