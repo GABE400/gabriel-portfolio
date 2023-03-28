@@ -36,12 +36,12 @@ const About = () => {
           <p>
             Throughout my academic years and in my first year of experience as a
             full stack developer, I have learned a lot. I have learned how to
-            design and develop the user interface using HTML, CSS, and
-            JavaScript. I have also learned how to build the back-end of web
-            applications using server-side programming languages like Node.js,
-            React.js, or React Native. I have also gained experience in using
-            databases like MySQL, PostgreSQL, and MongoDB to store and manage
-            data.
+            design and develop the user interface using ReactJS. I have also
+            learned how to build the back-end of web applications using
+            server-side programming languages like Node.js, Express.js or
+            Next.js a full-stack React framework. I have also gained experience
+            in using databases like MySQL, PostgreSQL, and MongoDB to store and
+            manage data.
           </p>
           <div className='content-words'>
             <p>
