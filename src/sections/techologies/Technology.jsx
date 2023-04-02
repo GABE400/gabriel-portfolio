@@ -17,7 +17,7 @@ import {
   SiMysql,
   SiSqlite,
 } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
 import { FaNodeJs, FaBootstrap, FaJava, FaDatabase } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
 import "./technology.css";
@@ -91,6 +91,13 @@ const Technology = () => {
               <SiReact className='icon' />
               <div>
                 <h4>React.js</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <TbBrandReactNative className='icon' />
+              <div>
+                <h4>React Native</h4>
                 <small className='text-light'></small>
               </div>
             </article>
