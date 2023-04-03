@@ -14,11 +14,9 @@ import {
   SiPrisma,
   SiTrpc,
   SiExpress,
-  SiMysql,
-  SiSqlite,
 } from "react-icons/si";
 import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
-import { FaNodeJs, FaBootstrap, FaJava, FaDatabase } from "react-icons/fa";
+import { FaNodeJs, FaBootstrap } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
 import "./technology.css";
 
@@ -181,42 +179,6 @@ const Technology = () => {
               <FaNodeJs className='icon' />
               <div>
                 <h4>Node.js</h4>
-                <small className='text-light'></small>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div className='experience_backend'>
-          <h3>Other Programming Language & Databases</h3>
-          <div className='experience_content'>
-            <article className='experience_details'>
-              <FaJava className='icon' />
-              <div>
-                <h4>Java</h4>
-                <small className='text-light'></small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <SiSqlite className='icon' />
-              <div>
-                <h4>SQLite</h4>
-                <small className='text-light'></small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <SiMysql className='icon' />
-              <div>
-                <h4>MySQL</h4>
-                <small className='text-light'></small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <FaDatabase className='icon' />
-              <div>
-                <h4>PostreSQL</h4>
                 <small className='text-light'></small>
               </div>
             </article>
