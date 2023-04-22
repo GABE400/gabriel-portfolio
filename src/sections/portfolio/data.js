@@ -57,6 +57,17 @@ const data = [
     source: 'https://github.com/GABE400/metaversus',
     visit: 'https://metaversus-gold.vercel.app/',
   },
+  {
+    id: 7,
+    image: 'img/screenshotted.PNG',
+    icon: <SiNextdotjs />,
+    title: 'Next.js 13',
+    category: 'Fullstack',
+    tags: ['Next.js 13', ' Tailwind CSS', ' Prisma'],
+    desc: 'A Group of Companies',
+    source: 'https://github.com/GABE400/group-of-company.git',
+    visit: 'https://www.legacygroupofcompanies.com/',
+  },
 ];
 
 export default data;
