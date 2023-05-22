@@ -77,7 +77,7 @@ const About = () => {
           </div>
           <label for='check'>Read More...</label>
           <a href='#contact' className='btn primary'>
-            Reach Gabriel <BsArrowDownSquare />
+            Reach Me <BsArrowDownSquare />
           </a>
         </div>
       </div>
