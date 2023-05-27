@@ -7,15 +7,15 @@
   transition: 0.5s linear;
 }
 
-#check:checked ~ .content-words {
+#check:checked~.content-words {
   display: block;
 }
 
-#check:checked ~ label {
+#check:checked~label {
   visibility: hidden;
 }
 
-#check:checked ~ label:after {
+#check:checked~label:after {
   content: "Show Less";
   display: block;
   visibility: visible;
@@ -33,6 +33,7 @@ label {
   padding: 10rem 0;
   background: var(--color-bg);
 }
+
 .about_container {
   display: grid;
   grid-template-columns: 35% 53%;
@@ -43,12 +44,10 @@ label {
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-  );
+  background: linear-gradient(45deg,
+      transparent,
+      var(--color-primary),
+      transparent);
   display: grid;
   place-items: center;
   order: 1;
@@ -109,6 +108,11 @@ label {
   color: var(--color-light);
 }
 
+.about_right h4 {
+  text-align: start;
+  margin-bottom: 20px;
+}
+
 .about_right p {
   margin-bottom: 0.8rem;
   color: var(--color-light-again);
@@ -143,6 +147,7 @@ small {
   .about_right h2 {
     text-align: center;
   }
+
 }
 
 /* MEDIA QUERIES (phones) */
@@ -151,6 +156,7 @@ small {
     width: 65%;
     margin: 0 auto 3rem;
   }
+
   .about_cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
