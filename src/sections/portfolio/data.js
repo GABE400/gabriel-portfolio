@@ -5,8 +5,8 @@ const data = [
   {
     id: 2,
     image: "img/1.png",
-    icon: <FaReact />,
-    title: <SiNextdotjs />,
+    icon: <SiNextdotjs />,
+    title: "Next.js",
     category: "Frontend",
     tags: ["Nextjs", " ,TypeScript", " ,Tailwind CSS"],
     desc: "This project is a media company website app. It was built with Next 13, TypeScript and Tailwind CSS",

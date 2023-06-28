@@ -42,7 +42,7 @@ const Portfolio = () => {
           {filteredData.map((item) => (
             <Card key={item.id} className='portfolio_card'>
               <img src={item.image} alt='images' />
-              <h5>{item.title}</h5>
+              <h5>{item.icon}</h5>
               <h6>{item.category}</h6>
               <h6>{item.tags}</h6>
               <small>{item.desc}</small>
