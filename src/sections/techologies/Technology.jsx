@@ -16,7 +16,7 @@ import {
   SiExpress,
 } from "react-icons/si";
 import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
-import { FaNodeJs, FaBootstrap } from "react-icons/fa";
+import { FaNodeJs, FaBootstrap, FaJava } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
 import "./technology.css";
 
@@ -126,7 +126,7 @@ const Technology = () => {
               </div>
             </article>
             <article className='experience_details'>
-              <SiTailwindcss className='icon' />
+              <FaJava className='icon' />
               <div>
                 <h4>Java</h4>
                 <small className='text-light'></small>
