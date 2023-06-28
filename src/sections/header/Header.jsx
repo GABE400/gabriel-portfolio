@@ -1,8 +1,8 @@
-import HeaderImage from '../../assets/profile/profile.png';
+import HeaderImage from "../../assets/profile/profile.png";
 //import data from './data';
-import './header.css';
-import CTA from './CTA';
-import HeaderSocialMedia from './HeaderSocialMedia';
+import "./header.css";
+import CTA from "./CTA";
+import HeaderSocialMedia from "./HeaderSocialMedia";
 //import { FaArrowRight } from 'react-icons/fa';
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
       <div className='container header_container'>
         <h5>Hello, I'm</h5>
         <h1>Gabriel</h1>
-        <h5 className='text-light'>I'm a Fullstack Developer</h5>
+        <h5 className='text-light'>I'm a Software Developer</h5>
         <CTA></CTA>
         <HeaderSocialMedia />
 

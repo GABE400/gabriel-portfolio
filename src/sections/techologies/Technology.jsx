@@ -79,6 +79,13 @@ const Technology = () => {
               </div>
             </article>
             <article className='experience_details'>
+              <SiTypescript className='icon' />
+              <div>
+                <h4>TypeScript</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience_details'>
               <SiTailwindcss className='icon' />
               <div>
                 <h4>Tailwind CSS</h4>
@@ -109,7 +116,7 @@ const Technology = () => {
           </div>
         </div>
         <div className='experience_frontend'>
-          <h3>T3 Stack</h3>
+          <h3>Fullstack</h3>
           <div className='experience_content'>
             <article className='experience_details'>
               <TbBrandNextjs className='icon' />
@@ -119,16 +126,9 @@ const Technology = () => {
               </div>
             </article>
             <article className='experience_details'>
-              <SiTypescript className='icon' />
-              <div>
-                <h4>Typescript</h4>
-                <small className='text-light'></small>
-              </div>
-            </article>
-            <article className='experience_details'>
               <SiTailwindcss className='icon' />
               <div>
-                <h4>Tailwind CSS</h4>
+                <h4>Java</h4>
                 <small className='text-light'></small>
               </div>
             </article>
@@ -146,11 +146,6 @@ const Technology = () => {
                 <small className='text-light'></small>
               </div>
             </article>
-          </div>
-        </div>
-        <div className='experience_backend'>
-          <h3>MERN Stack</h3>
-          <div className='experience_content'>
             <article className='experience_details'>
               <SiMongodb className='icon' />
               <div>
@@ -158,7 +153,6 @@ const Technology = () => {
                 <small className='text-light'></small>
               </div>
             </article>
-
             <article className='experience_details'>
               <SiExpress className='icon' />
               <div>
@@ -166,19 +160,17 @@ const Technology = () => {
                 <small className='text-light'></small>
               </div>
             </article>
-
-            <article className='experience_details'>
-              <SiReact className='icon' />
-              <div>
-                <h4>React.js</h4>
-                <small className='text-light'></small>
-              </div>
-            </article>
-
             <article className='experience_details'>
               <FaNodeJs className='icon' />
               <div>
                 <h4>Node.js</h4>
+                <small className='text-light'></small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <FaNodeJs className='icon' />
+              <div>
+                <h4>MySQL</h4>
                 <small className='text-light'></small>
               </div>
             </article>
