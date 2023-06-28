@@ -116,7 +116,7 @@ const Technology = () => {
           </div>
         </div>
         <div className='experience_frontend'>
-          <h3>Fullstack</h3>
+          <h3>Full Stack</h3>
           <div className='experience_content'>
             <article className='experience_details'>
               <TbBrandNextjs className='icon' />
