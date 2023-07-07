@@ -68,6 +68,17 @@ const data = [
     source: "https://github.com/GABE400/group-of-company.git",
     visit: "https://www.legacygroupofcompanies.com/",
   },
+  {
+    id: 8,
+    image: "img/8.png",
+    icon: <FaReact />,
+    title: "React",
+    category: "Fullstack",
+    tags: ["ReactJS,", " Material UI", " ,TypeScript", " ,RapidAPI"],
+    desc: "Rapid Meme Master App",
+    source: "https://github.com/GABE400/meme-creator-react-pwa",
+    visit: "https://main--gabeapps.netlify.app/",
+  },
 ];
 
 export default data;
