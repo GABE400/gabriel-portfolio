@@ -74,7 +74,7 @@ const data = [
     icon: <FaReact />,
     title: "React",
     category: "Fullstack",
-    tags: ["ReactJS,", " Material UI", " ,TypeScript", " ,RapidAPI"],
+    tags: ["ReactJS,", " Material UI", " ,TypeScript", " ,RapidAPI", " ,PWA"],
     desc: "Rapid Meme Master App",
     source: "https://github.com/GABE400/meme-creator-react-pwa",
     visit: "https://main--gabeapps.netlify.app/",
