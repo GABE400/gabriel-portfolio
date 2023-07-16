@@ -1,4 +1,4 @@
-import HeaderImage from "../../assets/profile/profile.png";
+import HeaderImage from "../../assets/profile/photo_2023-07-16_15-34-59-removebg-preview.png";
 //import data from './data';
 import "./header.css";
 import CTA from "./CTA";
