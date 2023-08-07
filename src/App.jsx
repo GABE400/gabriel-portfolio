@@ -3,7 +3,7 @@ import { ErrorBoundary } from "react-error-boundary";
 import ErrorFallback from "./components/ErrorBoundary";
 import Navbar from "./sections/navbar/Navbar";
 import Technology from "./sections/techologies/Technology";
-import DevImg from "./assets/Logo/logoDesign.png";
+import DevImg from "./assets/Logo/logoG.png";
 import SyncLoader from "react-spinners/SyncLoader";
 
 //import Testimonials from './sections/testimonials/Testimonials';
@@ -36,8 +36,6 @@ const App = () => {
             <div className='screenLoader'>
               <div className='image-container'>
                 <img src={DevImg} alt='Logo Developer' className='logoDev' />
-              </div>
-              <div>
                 <SyncLoader
                   color={"#5F9EA0"}
                   loading={loading}

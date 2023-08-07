@@ -214,13 +214,13 @@ img {
   height: 100vh;
   width: 100%;
   color: aliceblue;
-  background: #000000;
+  background: #004aad;
   text-align: center;
-  padding-top: 5px;
 }
 
 .image-container {
-  padding: 0 500px;
+  padding: 10% 35%;
+  margin: auto;
 }
 
 .logoDev {
