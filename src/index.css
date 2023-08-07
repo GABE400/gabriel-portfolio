@@ -219,8 +219,9 @@ img {
 }
 
 .image-container {
-  padding: 10% 35%;
+  padding: 10% 650px;
   margin: auto;
+  display: block;
 }
 
 .logoDev {
